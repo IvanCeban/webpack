@@ -1,0 +1,28 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "webpack course",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvanCeban/webpack.git"
+  },
+  "keywords": [
+    "js",
+    "webpack"
+  ],
+  "author": "iceban <ic@dev.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IvanCeban/webpack/issues"
+  },
+  "homepage": "https://github.com/IvanCeban/webpack#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.3.1",
+    "webpack": "^5.30.0",
+    "webpack-cli": "^4.6.0"
+  }
+}

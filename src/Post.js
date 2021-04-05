@@ -1,4 +1,4 @@
-class Post { // Создаем модель поста
+export default class Post {
     constructor(title ) {
         this.title = title
         this.date = new Date()
