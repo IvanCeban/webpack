@@ -12,7 +12,7 @@ function createAnalytics () {
         },
         getClicks() {
             if(isDestroyed) {
-                return 'Analytics is destroyed. Bye bye.'
+                return 'Analytics is destroyed. Bye bye!!!'
             }
             return counter
         }
