@@ -24,8 +24,19 @@ module.exports = {
             {
                 test: /\.css$/, // при помощи регулярного выражения проверяем расширение файла
                 use: ['style-loader', 'css-loader'] // если это css, то используем эти loaders
+            },
+            {
+                test: /\.(png|jpg|svg|gif)$/, // перечисляем возможные расширения графических файлов
+                use: ['file-loader']
+            },
+            {
+                test: /\.(ttf|woff|woff2|eot)$/,
+                use: ['file-loader']
+            },
+            {
+                test: /\.xml$/,
+                use: ['xml-loader']
             }
-
         ]
     }
 }
