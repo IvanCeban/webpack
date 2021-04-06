@@ -2,7 +2,7 @@ import Post from "./Post";
 import json from './assets/json'
 import './styles/styles.css'
 
-const post = new Post('Webpack Post title')
+const post = new Post('Webpack Post title.')
 
 console.log('Post to string:', post.toString())
 
