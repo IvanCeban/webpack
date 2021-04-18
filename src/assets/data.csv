@@ -1,0 +1,417 @@
+year,dvoutputreg,region,measure,type,estimate,rse
+1819,1,Northland,household_total_income,mean,84043,9.4
+1819,2,Auckland,household_total_income,mean,123875,2.7
+1819,3,Waikato,household_total_income,mean,95549,6.1
+1819,4,Bay of Plenty,household_total_income,mean,90454,6.4
+1819,5,Gisborne/Hawkes Bay ,household_total_income,mean,87133,5.7
+1819,6,Taranaki,household_total_income,mean,90314,8.5
+1819,7,Manawatu-Wanganui,household_total_income,mean,84293,6.5
+1819,8,Wellington,household_total_income,mean,113121,4.3
+1819,9,Tasman / Nelson / Marlborough / West Coast,household_total_income,mean,86960,7.3
+1819,10,Canterbury,household_total_income,mean,101301,5.4
+1819,11,Otago,household_total_income,mean,88670,17.4
+1819,12,Southland,household_total_income,mean,85571,8.1
+1819,99,National,household_total_income,mean,103991,1.6
+1819,1,Northland,household_disposable_income,mean,69149,7.9
+1819,2,Auckland,household_disposable_income,mean,98322,2.5
+1819,3,Waikato,household_disposable_income,mean,77592,5.5
+1819,4,Bay of Plenty,household_disposable_income,mean,74191,5.5
+1819,5,Gisborne/Hawkes Bay ,household_disposable_income,mean,71686,4.8
+1819,6,Taranaki,household_disposable_income,mean,73399,7.4
+1819,7,Manawatu-Wanganui,household_disposable_income,mean,69000,5.5
+1819,8,Wellington,household_disposable_income,mean,89476,3.8
+1819,9,Tasman / Nelson / Marlborough / West Coast,household_disposable_income,mean,70769,6.4
+1819,10,Canterbury,household_disposable_income,mean,81015,4.7
+1819,11,Otago,household_disposable_income,mean,70134,20.1
+1819,12,Southland,household_disposable_income,mean,69939,7
+1819,99,National,household_disposable_income,mean,83406,1.5
+1819,1,Northland,household_equivalised_disposable_income,mean,39734,7.4
+1819,2,Auckland,household_equivalised_disposable_income,mean,50723,2.3
+1819,3,Waikato,household_equivalised_disposable_income,mean,43569,5
+1819,4,Bay of Plenty,household_equivalised_disposable_income,mean,41961,5.2
+1819,5,Gisborne/Hawkes Bay ,household_equivalised_disposable_income,mean,40871,4.9
+1819,6,Taranaki,household_equivalised_disposable_income,mean,42586,7.1
+1819,7,Manawatu-Wanganui,household_equivalised_disposable_income,mean,40344,5.3
+1819,8,Wellington,household_equivalised_disposable_income,mean,49934,3.7
+1819,9,Tasman / Nelson / Marlborough / West Coast,household_equivalised_disposable_income,mean,41619,5.8
+1819,10,Canterbury,household_equivalised_disposable_income,mean,46482,4.2
+1819,11,Otago,household_equivalised_disposable_income,mean,41331,16
+1819,12,Southland,household_equivalised_disposable_income,mean,42005,6.6
+1819,99,National,household_equivalised_disposable_income,mean,46016,1.4
+1819,1,Northland,household_equivalised_disposable_income_ahc,mean,31955,8.9
+1819,2,Auckland,household_equivalised_disposable_income_ahc,mean,38316,3
+1819,3,Waikato,household_equivalised_disposable_income_ahc,mean,34756,5.9
+1819,4,Bay of Plenty,household_equivalised_disposable_income_ahc,mean,33071,5.8
+1819,5,Gisborne/Hawkes Bay ,household_equivalised_disposable_income_ahc,mean,33194,5
+1819,6,Taranaki,household_equivalised_disposable_income_ahc,mean,35236,8.6
+1819,7,Manawatu-Wanganui,household_equivalised_disposable_income_ahc,mean,32583,6.2
+1819,8,Wellington,household_equivalised_disposable_income_ahc,mean,39728,4.5
+1819,9,Tasman / Nelson / Marlborough / West Coast,household_equivalised_disposable_income_ahc,mean,33709,6.7
+1819,10,Canterbury,household_equivalised_disposable_income_ahc,mean,37054,6.6
+1819,11,Otago,household_equivalised_disposable_income_ahc,mean,33567,20
+1819,12,Southland,household_equivalised_disposable_income_ahc,mean,35436,7.9
+1819,99,National,household_equivalised_disposable_income_ahc,mean,36200,1.9
+1819,1,Northland,housing_cost,mean,12808,9
+1819,2,Auckland,housing_cost,mean,23115,2.6
+1819,3,Waikato,housing_cost,mean,15170,4.1
+1819,4,Bay of Plenty,housing_cost,mean,15320,8.7
+1819,5,Gisborne/Hawkes Bay ,housing_cost,mean,13106,9.6
+1819,6,Taranaki,housing_cost,mean,12534,8.1
+1819,7,Manawatu-Wanganui,housing_cost,mean,12809,6.5
+1819,8,Wellington,housing_cost,mean,17821,4.7
+1819,9,Tasman / Nelson / Marlborough / West Coast,housing_cost,mean,13035,6.9
+1819,10,Canterbury,housing_cost,mean,16100,9.9
+1819,11,Otago,housing_cost,mean,13139,9
+1819,12,Southland,housing_cost,mean,10331,11
+1819,99,National,housing_cost,mean,17324,1.7
+1819,1,Northland,household_total_income,median,64086,10.1
+1819,2,Auckland,household_total_income,median,100437,2.9
+1819,3,Waikato,household_total_income,median,76503,5.2
+1819,4,Bay of Plenty,household_total_income,median,72771,7.4
+1819,5,Gisborne/Hawkes Bay ,household_total_income,median,71112,6.9
+1819,6,Taranaki,household_total_income,median,67912,12.7
+1819,7,Manawatu-Wanganui,household_total_income,median,67404,6.4
+1819,8,Wellington,household_total_income,median,91761,5.6
+1819,9,Tasman / Nelson / Marlborough / West Coast,household_total_income,median,63012,12.5
+1819,10,Canterbury,household_total_income,median,85836,5.5
+1819,11,Otago,household_total_income,median,72731,9.3
+1819,12,Southland,household_total_income,median,69524,7
+1819,99,National,household_total_income,median,82536,1.2
+1819,1,Northland,household_disposable_income,median,56678,7.2
+1819,2,Auckland,household_disposable_income,median,83129,3
+1819,3,Waikato,household_disposable_income,median,65203,4.4
+1819,4,Bay of Plenty,household_disposable_income,median,63188,5.1
+1819,5,Gisborne/Hawkes Bay ,household_disposable_income,median,61704,5.7
+1819,6,Taranaki,household_disposable_income,median,59852,12.1
+1819,7,Manawatu-Wanganui,household_disposable_income,median,59646,4.7
+1819,8,Wellington,household_disposable_income,median,76183,3.8
+1819,9,Tasman / Nelson / Marlborough / West Coast,household_disposable_income,median,56365,10.1
+1819,10,Canterbury,household_disposable_income,median,71518,4.7
+1819,11,Otago,household_disposable_income,median,63938,5.9
+1819,12,Southland,household_disposable_income,median,59264,6.7
+1819,99,National,household_disposable_income,median,70197,1.1
+1819,1,Northland,household_equivalised_disposable_income,median,32628,10.1
+1819,2,Auckland,household_equivalised_disposable_income,median,43216,2.6
+1819,3,Waikato,household_equivalised_disposable_income,median,37544,5
+1819,4,Bay of Plenty,household_equivalised_disposable_income,median,36149,6.4
+1819,5,Gisborne/Hawkes Bay ,household_equivalised_disposable_income,median,34716,4.9
+1819,6,Taranaki,household_equivalised_disposable_income,median,35014,7.8
+1819,7,Manawatu-Wanganui,household_equivalised_disposable_income,median,33823,5
+1819,8,Wellington,household_equivalised_disposable_income,median,42826,3.3
+1819,9,Tasman / Nelson / Marlborough / West Coast,household_equivalised_disposable_income,median,35730,5.7
+1819,10,Canterbury,household_equivalised_disposable_income,median,41496,5.4
+1819,11,Otago,household_equivalised_disposable_income,median,37855,7.3
+1819,12,Southland,household_equivalised_disposable_income,median,37901,6.8
+1819,99,National,household_equivalised_disposable_income,median,39543,1
+1819,1,Northland,household_equivalised_disposable_income_ahc,median,25295,6.7
+1819,2,Auckland,household_equivalised_disposable_income_ahc,median,31045,2.7
+1819,3,Waikato,household_equivalised_disposable_income_ahc,median,28528,5.2
+1819,4,Bay of Plenty,household_equivalised_disposable_income_ahc,median,26985,8.2
+1819,5,Gisborne/Hawkes Bay ,household_equivalised_disposable_income_ahc,median,27167,6.5
+1819,6,Taranaki,household_equivalised_disposable_income_ahc,median,27397,8.8
+1819,7,Manawatu-Wanganui,household_equivalised_disposable_income_ahc,median,26544,4.2
+1819,8,Wellington,household_equivalised_disposable_income_ahc,median,32556,5.1
+1819,9,Tasman / Nelson / Marlborough / West Coast,household_equivalised_disposable_income_ahc,median,26849,8.2
+1819,10,Canterbury,household_equivalised_disposable_income_ahc,median,32209,4.8
+1819,11,Otago,household_equivalised_disposable_income_ahc,median,30708,7.5
+1819,12,Southland,household_equivalised_disposable_income_ahc,median,31517,8.7
+1819,99,National,household_equivalised_disposable_income_ahc,median,29882,1.3
+1920,1,Northland,household_total_income,mean,88165,8.3
+1920,2,Auckland,household_total_income,mean,128747,3.2
+1920,3,Waikato,household_total_income,mean,98569,5.6
+1920,4,Bay of Plenty,household_total_income,mean,95574,6.1
+1920,5,Gisborne/Hawkes Bay ,household_total_income,mean,90435,10.6
+1920,6,Taranaki,household_total_income,mean,91735,7.5
+1920,7,Manawatu-Wanganui,household_total_income,mean,85841,6.7
+1920,8,Wellington,household_total_income,mean,123533,5.3
+1920,9,Tasman / Nelson / Marlborough / West Coast,household_total_income,mean,86401,7.9
+1920,10,Canterbury,household_total_income,mean,99243,4.9
+1920,11,Otago,household_total_income,mean,92839,10.8
+1920,12,Southland,household_total_income,mean,92425,10.5
+1920,99,National,household_total_income,mean,107731,1.3
+1920,1,Northland,household_disposable_income,mean,74184,7.1
+1920,2,Auckland,household_disposable_income,mean,102225,2.7
+1920,3,Waikato,household_disposable_income,mean,80440,4.9
+1920,4,Bay of Plenty,household_disposable_income,mean,78086,5.1
+1920,5,Gisborne/Hawkes Bay ,household_disposable_income,mean,74394,8.9
+1920,6,Taranaki,household_disposable_income,mean,74108,6.5
+1920,7,Manawatu-Wanganui,household_disposable_income,mean,71301,5.9
+1920,8,Wellington,household_disposable_income,mean,96937,4.7
+1920,9,Tasman / Nelson / Marlborough / West Coast,household_disposable_income,mean,70664,6.9
+1920,10,Canterbury,household_disposable_income,mean,80077,4.2
+1920,11,Otago,household_disposable_income,mean,74726,9.4
+1920,12,Southland,household_disposable_income,mean,75221,9.2
+1920,99,National,household_disposable_income,mean,86626,1.2
+1920,1,Northland,household_equivalised_disposable_income,mean,43694,6.9
+1920,2,Auckland,household_equivalised_disposable_income,mean,53516,2.6
+1920,3,Waikato,household_equivalised_disposable_income,mean,45378,4.6
+1920,4,Bay of Plenty,household_equivalised_disposable_income,mean,44486,5.3
+1920,5,Gisborne/Hawkes Bay ,household_equivalised_disposable_income,mean,42290,9.4
+1920,6,Taranaki,household_equivalised_disposable_income,mean,42169,6.2
+1920,7,Manawatu-Wanganui,household_equivalised_disposable_income,mean,41647,5.9
+1920,8,Wellington,household_equivalised_disposable_income,mean,54950,4.8
+1920,9,Tasman / Nelson / Marlborough / West Coast,household_equivalised_disposable_income,mean,41704,6.8
+1920,10,Canterbury,household_equivalised_disposable_income,mean,46088,3.9
+1920,11,Otago,household_equivalised_disposable_income,mean,44101,8.7
+1920,12,Southland,household_equivalised_disposable_income,mean,44713,7.8
+1920,99,National,household_equivalised_disposable_income,mean,48196,1.2
+1920,1,Northland,household_equivalised_disposable_income_ahc,mean,35328,8.4
+1920,2,Auckland,household_equivalised_disposable_income_ahc,mean,40714,3.4
+1920,3,Waikato,household_equivalised_disposable_income_ahc,mean,36120,5.1
+1920,4,Bay of Plenty,household_equivalised_disposable_income_ahc,mean,35201,5.6
+1920,5,Gisborne/Hawkes Bay ,household_equivalised_disposable_income_ahc,mean,35180,10.2
+1920,6,Taranaki,household_equivalised_disposable_income_ahc,mean,34619,7.8
+1920,7,Manawatu-Wanganui,household_equivalised_disposable_income_ahc,mean,33505,7.4
+1920,8,Wellington,household_equivalised_disposable_income_ahc,mean,43525,5.9
+1920,9,Tasman / Nelson / Marlborough / West Coast,household_equivalised_disposable_income_ahc,mean,33632,8.5
+1920,10,Canterbury,household_equivalised_disposable_income_ahc,mean,36643,4.4
+1920,11,Otago,household_equivalised_disposable_income_ahc,mean,36064,10.3
+1920,12,Southland,household_equivalised_disposable_income_ahc,mean,37858,8.3
+1920,99,National,household_equivalised_disposable_income_ahc,mean,38008,1.5
+1920,1,Northland,housing_cost,mean,13887,11.5
+1920,2,Auckland,housing_cost,mean,23897,3.3
+1920,3,Waikato,housing_cost,mean,16030,7.7
+1920,4,Bay of Plenty,housing_cost,mean,16164,10.5
+1920,5,Gisborne/Hawkes Bay ,housing_cost,mean,12231,9.1
+1920,6,Taranaki,housing_cost,mean,12621,7.7
+1920,7,Manawatu-Wanganui,housing_cost,mean,13322,9.5
+1920,8,Wellington,housing_cost,mean,19914,6
+1920,9,Tasman / Nelson / Marlborough / West Coast,housing_cost,mean,13127,9.7
+1920,10,Canterbury,housing_cost,mean,16018,11.2
+1920,11,Otago,housing_cost,mean,13349,10.4
+1920,12,Southland,housing_cost,mean,11249,12.9
+1920,99,National,housing_cost,mean,17980,1.9
+1920,1,Northland,household_total_income,median,78094,10.5
+1920,2,Auckland,household_total_income,median,108087,4
+1920,3,Waikato,household_total_income,median,81618,6.3
+1920,4,Bay of Plenty,household_total_income,median,79327,8.7
+1920,5,Gisborne/Hawkes Bay ,household_total_income,median,70385,9.9
+1920,6,Taranaki,household_total_income,median,73877,13.8
+1920,7,Manawatu-Wanganui,household_total_income,median,68240,9.4
+1920,8,Wellington,household_total_income,median,102952,6.1
+1920,9,Tasman / Nelson / Marlborough / West Coast,household_total_income,median,68078,10.5
+1920,10,Canterbury,household_total_income,median,86145,7.2
+1920,11,Otago,household_total_income,median,75335,10.1
+1920,12,Southland,household_total_income,median,78844,11.4
+1920,99,National,household_total_income,median,88327,1.6
+1920,1,Northland,household_disposable_income,median,69096,7.5
+1920,2,Auckland,household_disposable_income,median,89725,3.4
+1920,3,Waikato,household_disposable_income,median,70883,5.4
+1920,4,Bay of Plenty,household_disposable_income,median,69181,6.9
+1920,5,Gisborne/Hawkes Bay ,household_disposable_income,median,61915,8.4
+1920,6,Taranaki,household_disposable_income,median,63346,11.9
+1920,7,Manawatu-Wanganui,household_disposable_income,median,61635,8.7
+1920,8,Wellington,household_disposable_income,median,83821,5.1
+1920,9,Tasman / Nelson / Marlborough / West Coast,household_disposable_income,median,60584,7.9
+1920,10,Canterbury,household_disposable_income,median,72078,6.2
+1920,11,Otago,household_disposable_income,median,63288,7.7
+1920,12,Southland,household_disposable_income,median,68954,10.2
+1920,99,National,household_disposable_income,median,75024,1.4
+1920,1,Northland,household_equivalised_disposable_income,median,41380,8.5
+1920,2,Auckland,household_equivalised_disposable_income,median,47022,2.2
+1920,3,Waikato,household_equivalised_disposable_income,median,40964,6.4
+1920,4,Bay of Plenty,household_equivalised_disposable_income,median,40193,4.8
+1920,5,Gisborne/Hawkes Bay ,household_equivalised_disposable_income,median,34367,8.2
+1920,6,Taranaki,household_equivalised_disposable_income,median,37455,9.2
+1920,7,Manawatu-Wanganui,household_equivalised_disposable_income,median,35778,9.6
+1920,8,Wellington,household_equivalised_disposable_income,median,48180,5.4
+1920,9,Tasman / Nelson / Marlborough / West Coast,household_equivalised_disposable_income,median,36101,9.4
+1920,10,Canterbury,household_equivalised_disposable_income,median,43061,6.6
+1920,11,Otago,household_equivalised_disposable_income,median,36393,9.3
+1920,12,Southland,household_equivalised_disposable_income,median,40769,11.7
+1920,99,National,household_equivalised_disposable_income,median,42561,1.2
+1920,1,Northland,household_equivalised_disposable_income_ahc,median,32729,14
+1920,2,Auckland,household_equivalised_disposable_income_ahc,median,35074,3.4
+1920,3,Waikato,household_equivalised_disposable_income_ahc,median,30917,7.1
+1920,4,Bay of Plenty,household_equivalised_disposable_income_ahc,median,30679,6.3
+1920,5,Gisborne/Hawkes Bay ,household_equivalised_disposable_income_ahc,median,27913,6.8
+1920,6,Taranaki,household_equivalised_disposable_income_ahc,median,29130,9.4
+1920,7,Manawatu-Wanganui,household_equivalised_disposable_income_ahc,median,26993,10.8
+1920,8,Wellington,household_equivalised_disposable_income_ahc,median,36771,6.5
+1920,9,Tasman / Nelson / Marlborough / West Coast,household_equivalised_disposable_income_ahc,median,27000,7.4
+1920,10,Canterbury,household_equivalised_disposable_income_ahc,median,33227,6.4
+1920,11,Otago,household_equivalised_disposable_income_ahc,median,28473,9.5
+1920,12,Southland,household_equivalised_disposable_income_ahc,median,34491,13.5
+1920,99,National,household_equivalised_disposable_income_ahc,median,32353,1.3
+1920,1,Northland,housing_costs_to_household_disposable_income_ratio,ratio,18.7,2.2
+1920,2,Auckland,housing_costs_to_household_disposable_income_ratio,ratio,23.4,0.9
+1920,3,Waikato,housing_costs_to_household_disposable_income_ratio,ratio,19.9,1.4
+1920,4,Bay of Plenty,housing_costs_to_household_disposable_income_ratio,ratio,20.7,1.8
+1920,5,Gisborne/Hawkes Bay ,housing_costs_to_household_disposable_income_ratio,ratio,16.4,1.1
+1920,6,Taranaki,housing_costs_to_household_disposable_income_ratio,ratio,17,1.8
+1920,7,Manawatu-Wanganui,housing_costs_to_household_disposable_income_ratio,ratio,18.7,2
+1920,8,Wellington,housing_costs_to_household_disposable_income_ratio,ratio,20.5,1.4
+1920,9,Tasman / Nelson / Marlborough / West Coast,housing_costs_to_household_disposable_income_ratio,ratio,18.6,2.2
+1920,10,Canterbury,housing_costs_to_household_disposable_income_ratio,ratio,20,2.1
+1920,11,Otago,housing_costs_to_household_disposable_income_ratio,ratio,17.9,2.2
+1920,12,Southland,housing_costs_to_household_disposable_income_ratio,ratio,15,2
+1920,99,National,housing_costs_to_household_disposable_income_ratio,ratio,20.8,0.5
+1819,1,Northland,housing_costs_to_household_disposable_income_ratio,ratio,18.5,1.9
+1819,2,Auckland,housing_costs_to_household_disposable_income_ratio,ratio,23.5,0.7
+1819,3,Waikato,housing_costs_to_household_disposable_income_ratio,ratio,19.6,1.1
+1819,4,Bay of Plenty,housing_costs_to_household_disposable_income_ratio,ratio,20.6,1.5
+1819,5,Gisborne/Hawkes Bay ,housing_costs_to_household_disposable_income_ratio,ratio,18.3,1.5
+1819,6,Taranaki,housing_costs_to_household_disposable_income_ratio,ratio,17.1,1.8
+1819,7,Manawatu-Wanganui,housing_costs_to_household_disposable_income_ratio,ratio,18.6,1.3
+1819,8,Wellington,housing_costs_to_household_disposable_income_ratio,ratio,19.9,1
+1819,9,Tasman / Nelson / Marlborough / West Coast,housing_costs_to_household_disposable_income_ratio,ratio,18.4,1.4
+1819,10,Canterbury,housing_costs_to_household_disposable_income_ratio,ratio,19.9,2.4
+1819,11,Otago,housing_costs_to_household_disposable_income_ratio,ratio,18.7,4
+1819,12,Southland,housing_costs_to_household_disposable_income_ratio,ratio,14.8,1.7
+1819,99,National,housing_costs_to_household_disposable_income_ratio,ratio,20.8,0.5
+1819,1,Northland,housing_cost,median,9124,3.9
+1819,2,Auckland,housing_cost,median,22178,25.7
+1819,3,Waikato,housing_cost,median,12942,3.9
+1819,4,Bay of Plenty,housing_cost,median,11992,8.5
+1819,5,Gisborne/Hawkes Bay ,housing_cost,median,9958,21.4
+1819,6,Taranaki,housing_cost,median,8421,14.2
+1819,7,Manawatu-Wanganui,housing_cost,median,9917,22.7
+1819,8,Wellington,housing_cost,median,13500,7.8
+1819,9,Tasman / Nelson / Marlborough / West Coast,housing_cost,median,8277,14.3
+1819,10,Canterbury,housing_cost,median,14599,22.5
+1819,11,Otago,housing_cost,median,8807,20
+1819,12,Southland,housing_cost,median,7352,14.2
+1819,99,National,housing_cost,median,13556,23
+1920,1,Northland,housing_cost,median,10857,22.2
+1920,2,Auckland,housing_cost,median,23767,4.8
+1920,3,Waikato,housing_cost,median,13035,15
+1920,4,Bay of Plenty,housing_cost,median,13035,24
+1920,5,Gisborne/Hawkes Bay ,housing_cost,median,7300,21.1
+1920,6,Taranaki,housing_cost,median,10390,24.8
+1920,7,Manawatu-Wanganui,housing_cost,median,10749,13.7
+1920,8,Wellington,housing_cost,median,16036,10.7
+1920,9,Tasman / Nelson / Marlborough / West Coast,housing_cost,median,7821,27.5
+1920,10,Canterbury,housing_cost,median,14712,20.3
+1920,11,Otago,housing_cost,median,10521,18.8
+1920,12,Southland,housing_cost,median,8212,21.9
+1920,99,National,housing_cost,median,14706,3.9
+1920,1,Northland,household_total_income,mean_percentage_change,4.9,11.6
+1920,2,Auckland,household_total_income,mean_percentage_change,3.9,4.2
+1920,3,Waikato,household_total_income,mean_percentage_change,3.2,6.6
+1920,4,Bay of Plenty,household_total_income,mean_percentage_change,5.7,8.1
+1920,5,Gisborne/Hawkes Bay ,household_total_income,mean_percentage_change,3.8,11.8
+1920,6,Taranaki,household_total_income,mean_percentage_change,1.6,11.2
+1920,7,Manawatu-Wanganui,household_total_income,mean_percentage_change,1.8,8.6
+1920,8,Wellington,household_total_income,mean_percentage_change,9.2,7.1
+1920,9,Tasman / Nelson / Marlborough / West Coast,household_total_income,mean_percentage_change,-0.6,9.7
+1920,10,Canterbury,household_total_income,mean_percentage_change,-2,7.2
+1920,11,Otago,household_total_income,mean_percentage_change,4.7,18.7
+1920,12,Southland,household_total_income,mean_percentage_change,8,13.8
+1920,99,National,household_total_income,mean_percentage_change,3.6,2.2
+1920,1,Northland,household_disposable_income,mean_percentage_change,7.3,10.1
+1920,2,Auckland,household_disposable_income,mean_percentage_change,4,3.7
+1920,3,Waikato,household_disposable_income,mean_percentage_change,3.7,6
+1920,4,Bay of Plenty,household_disposable_income,mean_percentage_change,5.3,7
+1920,5,Gisborne/Hawkes Bay ,household_disposable_income,mean_percentage_change,3.8,9.9
+1920,6,Taranaki,household_disposable_income,mean_percentage_change,1,9.8
+1920,7,Manawatu-Wanganui,household_disposable_income,mean_percentage_change,3.3,7.5
+1920,8,Wellington,household_disposable_income,mean_percentage_change,8.3,6.3
+1920,9,Tasman / Nelson / Marlborough / West Coast,household_disposable_income,mean_percentage_change,-0.1,8.5
+1920,10,Canterbury,household_disposable_income,mean_percentage_change,-1.2,6.4
+1920,11,Otago,household_disposable_income,mean_percentage_change,6.5,21.1
+1920,12,Southland,household_disposable_income,mean_percentage_change,7.6,11.7
+1920,99,National,household_disposable_income,mean_percentage_change,3.9,2.1
+1920,1,Northland,household_equivalised_disposable_income,mean_percentage_change,10,10
+1920,2,Auckland,household_equivalised_disposable_income,mean_percentage_change,5.5,3.5
+1920,3,Waikato,household_equivalised_disposable_income,mean_percentage_change,4.2,5.8
+1920,4,Bay of Plenty,household_equivalised_disposable_income,mean_percentage_change,6,7.1
+1920,5,Gisborne/Hawkes Bay ,household_equivalised_disposable_income,mean_percentage_change,3.5,10.7
+1920,6,Taranaki,household_equivalised_disposable_income,mean_percentage_change,-1,9.2
+1920,7,Manawatu-Wanganui,household_equivalised_disposable_income,mean_percentage_change,3.2,7.1
+1920,8,Wellington,household_equivalised_disposable_income,mean_percentage_change,10,6.5
+1920,9,Tasman / Nelson / Marlborough / West Coast,household_equivalised_disposable_income,mean_percentage_change,0.2,8
+1920,10,Canterbury,household_equivalised_disposable_income,mean_percentage_change,-0.8,6.1
+1920,11,Otago,household_equivalised_disposable_income,mean_percentage_change,6.7,17.4
+1920,12,Southland,household_equivalised_disposable_income,mean_percentage_change,6.4,9.1
+1920,99,National,household_equivalised_disposable_income,mean_percentage_change,4.7,2
+1920,1,Northland,household_equivalised_disposable_income_ahc,mean_percentage_change,10.6,12.4
+1920,2,Auckland,household_equivalised_disposable_income_ahc,mean_percentage_change,6.3,4.6
+1920,3,Waikato,household_equivalised_disposable_income_ahc,mean_percentage_change,3.9,6.8
+1920,4,Bay of Plenty,household_equivalised_disposable_income_ahc,mean_percentage_change,6.4,8.5
+1920,5,Gisborne/Hawkes Bay ,household_equivalised_disposable_income_ahc,mean_percentage_change,6,11.4
+1920,6,Taranaki,household_equivalised_disposable_income_ahc,mean_percentage_change,-1.8,11.1
+1920,7,Manawatu-Wanganui,household_equivalised_disposable_income_ahc,mean_percentage_change,2.8,8.8
+1920,8,Wellington,household_equivalised_disposable_income_ahc,mean_percentage_change,9.6,7.8
+1920,9,Tasman / Nelson / Marlborough / West Coast,household_equivalised_disposable_income_ahc,mean_percentage_change,-0.2,9.7
+1920,10,Canterbury,household_equivalised_disposable_income_ahc,mean_percentage_change,-1.1,7.4
+1920,11,Otago,household_equivalised_disposable_income_ahc,mean_percentage_change,7.4,21.1
+1920,12,Southland,household_equivalised_disposable_income_ahc,mean_percentage_change,6.8,11
+1920,99,National,household_equivalised_disposable_income_ahc,mean_percentage_change,5,2.6
+1920,1,Northland,household_total_income,median_percentage_change,21.9,17.7
+1920,2,Auckland,household_total_income,median_percentage_change,7.6,5.4
+1920,3,Waikato,household_total_income,median_percentage_change,6.7,8.7
+1920,4,Bay of Plenty,household_total_income,median_percentage_change,9,12.5
+1920,5,Gisborne/Hawkes Bay ,household_total_income,median_percentage_change,-1,11.9
+1920,6,Taranaki,household_total_income,median_percentage_change,8.8,20.3
+1920,7,Manawatu-Wanganui,household_total_income,median_percentage_change,1.2,11.5
+1920,8,Wellington,household_total_income,median_percentage_change,12.2,9.3
+1920,9,Tasman / Nelson / Marlborough / West Coast,household_total_income,median_percentage_change,8,17.6
+1920,10,Canterbury,household_total_income,median_percentage_change,0.4,9.1
+1920,11,Otago,household_total_income,median_percentage_change,3.6,14.2
+1920,12,Southland,household_total_income,median_percentage_change,13.4,15.1
+1920,99,National,household_total_income,median_percentage_change,7,2.1
+1920,1,Northland,household_disposable_income,median_percentage_change,21.9,12.7
+1920,2,Auckland,household_disposable_income,median_percentage_change,7.9,4.9
+1920,3,Waikato,household_disposable_income,median_percentage_change,8.7,7.6
+1920,4,Bay of Plenty,household_disposable_income,median_percentage_change,9.5,9.4
+1920,5,Gisborne/Hawkes Bay ,household_disposable_income,median_percentage_change,0.3,10.1
+1920,6,Taranaki,household_disposable_income,median_percentage_change,5.8,17.8
+1920,7,Manawatu-Wanganui,household_disposable_income,median_percentage_change,3.3,10.3
+1920,8,Wellington,household_disposable_income,median_percentage_change,10,7
+1920,9,Tasman / Nelson / Marlborough / West Coast,household_disposable_income,median_percentage_change,7.5,13.7
+1920,10,Canterbury,household_disposable_income,median_percentage_change,0.8,7.8
+1920,11,Otago,household_disposable_income,median_percentage_change,-1,9.6
+1920,12,Southland,household_disposable_income,median_percentage_change,16.4,14.2
+1920,99,National,household_disposable_income,median_percentage_change,6.9,1.9
+1920,1,Northland,household_equivalised_disposable_income,median_percentage_change,26.8,16.6
+1920,2,Auckland,household_equivalised_disposable_income,median_percentage_change,8.8,3.7
+1920,3,Waikato,household_equivalised_disposable_income,median_percentage_change,9.1,8.9
+1920,4,Bay of Plenty,household_equivalised_disposable_income,median_percentage_change,11.2,8.9
+1920,5,Gisborne/Hawkes Bay ,household_equivalised_disposable_income,median_percentage_change,-1,9.4
+1920,6,Taranaki,household_equivalised_disposable_income,median_percentage_change,7,12.9
+1920,7,Manawatu-Wanganui,household_equivalised_disposable_income,median_percentage_change,5.8,11.5
+1920,8,Wellington,household_equivalised_disposable_income,median_percentage_change,12.5,7.1
+1920,9,Tasman / Nelson / Marlborough / West Coast,household_equivalised_disposable_income,median_percentage_change,1,11.1
+1920,10,Canterbury,household_equivalised_disposable_income,median_percentage_change,3.8,8.8
+1920,11,Otago,household_equivalised_disposable_income,median_percentage_change,-3.9,11.4
+1920,12,Southland,household_equivalised_disposable_income,median_percentage_change,7.6,14.6
+1920,99,National,household_equivalised_disposable_income,median_percentage_change,7.6,1.7
+1920,1,Northland,household_equivalised_disposable_income_ahc,median_percentage_change,29.4,20.1
+1920,2,Auckland,household_equivalised_disposable_income_ahc,median_percentage_change,13,4.9
+1920,3,Waikato,household_equivalised_disposable_income_ahc,median_percentage_change,8.4,9.5
+1920,4,Bay of Plenty,household_equivalised_disposable_income_ahc,median_percentage_change,13.7,11.9
+1920,5,Gisborne/Hawkes Bay ,household_equivalised_disposable_income_ahc,median_percentage_change,2.7,9.7
+1920,6,Taranaki,household_equivalised_disposable_income_ahc,median_percentage_change,6.3,13.6
+1920,7,Manawatu-Wanganui,household_equivalised_disposable_income_ahc,median_percentage_change,1.7,11.8
+1920,8,Wellington,household_equivalised_disposable_income_ahc,median_percentage_change,12.9,9.3
+1920,9,Tasman / Nelson / Marlborough / West Coast,household_equivalised_disposable_income_ahc,median_percentage_change,0.6,11.1
+1920,10,Canterbury,household_equivalised_disposable_income_ahc,median_percentage_change,3.2,8.2
+1920,11,Otago,household_equivalised_disposable_income_ahc,median_percentage_change,-7.3,11.2
+1920,12,Southland,household_equivalised_disposable_income_ahc,median_percentage_change,9.4,17.5
+1920,99,National,household_equivalised_disposable_income_ahc,median_percentage_change,8.3,2
+1920,1,Northland,housing_cost,mean_percentage_change,8.4,13.2
+1920,2,Auckland,housing_cost,mean_percentage_change,3.4,4
+1920,3,Waikato,housing_cost,mean_percentage_change,5.7,8.5
+1920,4,Bay of Plenty,housing_cost,mean_percentage_change,5.5,8.5
+1920,5,Gisborne/Hawkes Bay ,housing_cost,mean_percentage_change,-6.7,12.5
+1920,6,Taranaki,housing_cost,mean_percentage_change,0.7,10.8
+1920,7,Manawatu-Wanganui,housing_cost,mean_percentage_change,4,12
+1920,8,Wellington,housing_cost,mean_percentage_change,11.7,8
+1920,9,Tasman / Nelson / Marlborough / West Coast,housing_cost,mean_percentage_change,0.7,11
+1920,10,Canterbury,housing_cost,mean_percentage_change,-0.5,6.7
+1920,11,Otago,housing_cost,mean_percentage_change,1.6,12.8
+1920,12,Southland,housing_cost,mean_percentage_change,8.9,17.8
+1920,99,National,housing_cost,mean_percentage_change,3.8,2.3
+1920,1,Northland,housing_cost,median_percentage_change,19,40.4
+1920,2,Auckland,housing_cost,median_percentage_change,7.2,6.6
+1920,3,Waikato,housing_cost,median_percentage_change,0.7,17.4
+1920,4,Bay of Plenty,housing_cost,median_percentage_change,8.7,35
+1920,5,Gisborne/Hawkes Bay ,housing_cost,median_percentage_change,-26.7,18.7
+1920,6,Taranaki,housing_cost,median_percentage_change,23.4,41.5
+1920,7,Manawatu-Wanganui,housing_cost,median_percentage_change,8.4,17.1
+1920,8,Wellington,housing_cost,median_percentage_change,18.8,21.2
+1920,9,Tasman / Nelson / Marlborough / West Coast,housing_cost,median_percentage_change,-5.5,33.6
+1920,10,Canterbury,housing_cost,median_percentage_change,0.8,28.7
+1920,11,Otago,housing_cost,median_percentage_change,19.5,28.2
+1920,12,Southland,housing_cost,median_percentage_change,11.7,35.4
+1920,99,National,housing_cost,median_percentage_change,8.5,5.9

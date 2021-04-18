@@ -13,6 +13,13 @@ module.exports = {
         filename: '[name].[contenthash].js', // имя файла сборки
         path: path.resolve(__dirname, 'dist') // адрес где будет этот файл находиться
     },
+    resolve: {
+        extensions: ['.js', '.json', '.png'], // какие расширения нужно понимать по умолчаию
+        alias: { // позволяет задавать абсолютные пути
+            '@models': path.resolve(__dirname, 'src/models'),
+            '@': path.resolve(__dirname, 'src')
+        }
+    },
     plugins: [
         new HTMLWebpackPlugin({
             template: './index.html'
@@ -36,6 +43,10 @@ module.exports = {
             {
                 test: /\.xml$/,
                 use: ['xml-loader']
+            },
+            {
+                test: /\.csv$/,
+                use: ['csv-loader']
             }
         ]
     }
