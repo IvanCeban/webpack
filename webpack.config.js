@@ -1,7 +1,10 @@
 const path = require('path')
 const HTMLWebpackPlugin = require('html-webpack-plugin')
 const {CleanWebpackPlugin} = require('clean-webpack-plugin')
+const CopyWebpackPlugin = require('copy-webpack-plugin')
+const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
+const isDev = process.env.NODE_ENV === 'development'
 module.exports = {
     context: path.resolve(__dirname, 'src'),
     mode: 'development',
@@ -26,19 +29,39 @@ module.exports = {
         }
     },
     devServer: {
-        port: 3000
+        port: 4200
     },
     plugins: [
         new HTMLWebpackPlugin({
             template: './index.html'
         }),
-        new CleanWebpackPlugin()
+        new CleanWebpackPlugin(),
+        new CopyWebpackPlugin({
+            patterns: [ // это массив, так как для каждого элемента копирования используем отдельный объект с параментрами
+                {
+                    from: path.resolve(__dirname, 'src/favicon.ico'),
+                    to: path.resolve(__dirname, 'dist')
+                }
+            ]
+        }),
+        new MiniCssExtractPlugin({
+            filename: '[name].[contenthash].css'
+        })
     ],
     module: {
         rules: [
             {
                 test: /\.css$/, // при помощи регулярного выражения проверяем расширение файла
-                use: ['style-loader', 'css-loader'] // если это css, то используем эти loaders
+                use: [
+                    {
+                        loader: MiniCssExtractPlugin.loader,
+                        options: {
+                            hmr: true, // hot module replacement - то есть можем менять сущности без перезагрузки страницы
+                            reloadAll: true
+                        }
+                    },
+                    'css-loader'
+                ] // если это css, то используем эти loaders
             },
             {
                 test: /\.(png|jpg|svg|gif)$/, // перечисляем возможные расширения графических файлов

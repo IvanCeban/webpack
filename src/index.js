@@ -8,7 +8,7 @@ import WebpackLogo from '@/assets/webpack-logo'
 
 const post = new Post('Webpack Post title.', WebpackLogo)
 
-$('pre').html(post.toString())
+$('pre').addClass('code').html(post.toString())
 console.log('Post to string:', post.toString())
 
 console.log('JSON: ', json)
