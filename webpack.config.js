@@ -3,17 +3,52 @@ const HTMLWebpackPlugin = require('html-webpack-plugin')
 const {CleanWebpackPlugin} = require('clean-webpack-plugin')
 const CopyWebpackPlugin = require('copy-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const OptimizeCssAssetWebpackPlugin = require('optimize-css-assets-webpack-plugin')
+const TerserWebpackPlugin = require('terser-webpack-plugin')
 
 const isDev = process.env.NODE_ENV === 'development'
-module.exports = {
+const isProd = !isDev
+
+const filename = ext => isDev ? `[name].${ext}` : `[name][contenthash]${ext}`
+
+const optimization = () => {
+    const config = {
+        splitChunks: {
+            chunks: 'all'
+        }
+    }
+    if(isProd) {
+        config.minimizer = [ // в данном случае мы переписываем дефолтные параметры minimizer на свои из сторонних плагинов
+            new OptimizeCssAssetWebpackPlugin(),
+            new TerserWebpackPlugin()
+        ]
+    }
+    return config
+}
+
+
+const cssLoaders = extra => {
+    const loaders = [
+        MiniCssExtractPlugin.loader,
+        'css-loader'
+    ] // если это css, то используем эти loaders
+
+    if(extra) {
+        loaders.push(extra)
+    }
+
+    return loaders
+}
+
+    module.exports = {
     context: path.resolve(__dirname, 'src'),
     mode: 'development',
     entry: {
-        main: './index.js',
-        analytics: './analytics.js'
+        main: ['@babel/polyfill', './index.js'],
+        analytics: './analytics.ts'
     }, // Откуда стоит начать сборку приложения
     output: { // Куда складывать результат сборки
-        filename: '[name].[contenthash].js', // имя файла сборки
+        filename: filename('js'), // имя файла сборки
         path: path.resolve(__dirname, 'dist') // адрес где будет этот файл находиться
     },
     resolve: {
@@ -23,13 +58,10 @@ module.exports = {
             '@': path.resolve(__dirname, 'src')
         }
     },
-    optimization: {
-        splitChunks: {
-            chunks: 'all'
-        }
-    },
+    optimization: optimization(),
     devServer: {
-        port: 4200
+        port: 4200,
+        hot: isDev
     },
     plugins: [
         new HTMLWebpackPlugin({
@@ -45,23 +77,22 @@ module.exports = {
             ]
         }),
         new MiniCssExtractPlugin({
-            filename: '[name].[contenthash].css'
+            filename: filename('css')
         })
     ],
     module: {
         rules: [
             {
                 test: /\.css$/, // при помощи регулярного выражения проверяем расширение файла
-                use: [
-                    {
-                        loader: MiniCssExtractPlugin.loader,
-                        options: {
-                            hmr: true, // hot module replacement - то есть можем менять сущности без перезагрузки страницы
-                            reloadAll: true
-                        }
-                    },
-                    'css-loader'
-                ] // если это css, то используем эти loaders
+                use: cssLoaders()
+            },
+            {
+                test: /\.less$/,
+                use: cssLoaders('less-loader')
+            },
+            {
+                test: /\.s[ac]ss$/, // sass or scss
+                use: cssLoaders('sass-loader')
             },
             {
                 test: /\.(png|jpg|svg|gif)$/, // перечисляем возможные расширения графических файлов
@@ -78,6 +109,29 @@ module.exports = {
             {
                 test: /\.csv$/,
                 use: ['csv-loader']
+            },
+            {
+                test: /\.m?js$/, // пробегает по всем js файлам и пропускает их через babel
+                exclude: /node_modules/, // из поиска убирает папку node-modules
+                use: {
+                    loader: 'babel-loader',
+                    options: {
+                        presets: ['@babel/preset-env'] // preset - это набор плагинов которые используются в babel
+                    }
+                }
+            },
+            {
+                test: /\.ts/,
+                exclude: /node_modules/,
+                use: {
+                    loader: 'babel-loader',
+                    options: {
+                        presets: [
+                            '@babel/preset-env',
+                            '@babel/preset-typescript'
+                        ]
+                    }
+                }
             }
         ]
     }

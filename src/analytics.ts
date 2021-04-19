@@ -1,10 +1,10 @@
 import * as $ from 'jquery'
 
 // Считает клики по документу
-function createAnalytics () {
+function createAnalytics (): object {
     let counter = 0
-    let isDestroyed = false
-    const listener = () => counter++
+    let isDestroyed: boolean = false
+    const listener = (): number => counter++
     $(document).on('click', listener)
 
     return {
@@ -12,7 +12,7 @@ function createAnalytics () {
             $(document).off('click', listener)
             isDestroyed = true
         },
-        getClicks() {Í
+        getClicks() {
             if(isDestroyed) {
                 return 'Analytics is destroyed. Bye bye!!!'
             }
@@ -21,4 +21,4 @@ function createAnalytics () {
     }
 }
 
-window.analytics = createAnalytics()
+window['analytics'] = createAnalytics()
