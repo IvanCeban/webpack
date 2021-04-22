@@ -26,13 +26,11 @@ const optimization = () => {
     return config
 }
 
-
 const cssLoaders = extra => {
     const loaders = [
         MiniCssExtractPlugin.loader,
         'css-loader'
     ] // если это css, то используем эти loaders
-
     if(extra) {
         loaders.push(extra)
     }
@@ -40,11 +38,27 @@ const cssLoaders = extra => {
     return loaders
 }
 
-    module.exports = {
+const babelOptions = preset => {
+    const options = {
+        presets: [
+            '@babel/preset-env'
+        ],
+        plugins: [
+            '@babel/plugin-proposal-class-properties'
+        ]
+    }
+    if(preset) {
+        options.presets.push(preset)
+    }
+
+    return options
+}
+
+module.exports = {
     context: path.resolve(__dirname, 'src'),
     mode: 'development',
     entry: {
-        main: ['@babel/polyfill', './index.js'],
+        main: ['@babel/polyfill', './index.jsx'],
         analytics: './analytics.ts'
     }, // Откуда стоит начать сборку приложения
     output: { // Куда складывать результат сборки
@@ -63,6 +77,7 @@ const cssLoaders = extra => {
         port: 4200,
         hot: isDev
     },
+    devtool: isDev ? 'source-map' : '',
     plugins: [
         new HTMLWebpackPlugin({
             template: './index.html'
@@ -115,9 +130,7 @@ const cssLoaders = extra => {
                 exclude: /node_modules/, // из поиска убирает папку node-modules
                 use: {
                     loader: 'babel-loader',
-                    options: {
-                        presets: ['@babel/preset-env'] // preset - это набор плагинов которые используются в babel
-                    }
+                    options: babelOptions()
                 }
             },
             {
@@ -125,12 +138,15 @@ const cssLoaders = extra => {
                 exclude: /node_modules/,
                 use: {
                     loader: 'babel-loader',
-                    options: {
-                        presets: [
-                            '@babel/preset-env',
-                            '@babel/preset-typescript'
-                        ]
-                    }
+                    options: babelOptions('@babel/preset-typescript')
+                }
+            },
+            {
+                test: /\.jsx/,
+                exclude: /node_modules/,
+                use: {
+                    loader: 'babel-loader',
+                    options: babelOptions('@babel/preset-react')
                 }
             }
         ]
