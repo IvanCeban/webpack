@@ -5,11 +5,12 @@ const CopyWebpackPlugin = require('copy-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const OptimizeCssAssetWebpackPlugin = require('optimize-css-assets-webpack-plugin')
 const TerserWebpackPlugin = require('terser-webpack-plugin')
+const {BundleAnalyzerPlugin} = require('webpack-bundle-analyzer')
 
 const isDev = process.env.NODE_ENV === 'development'
 const isProd = !isDev
 
-const filename = ext => isDev ? `[name].${ext}` : `[name][contenthash]${ext}`
+const filename = ext => isDev ? `[name].${ext}` : `[name][contenthash].${ext}`
 
 const optimization = () => {
     const config = {
@@ -38,6 +39,19 @@ const cssLoaders = extra => {
     return loaders
 }
 
+const jsLoaders = () => {
+    const loaders = [{
+        loader: 'babel-loader',
+        options: babelOptions()
+    }]
+
+    if(isDev) {
+        loaders.push('eslint-loader')
+    }
+
+    return loaders
+}
+
 const babelOptions = preset => {
     const options = {
         presets: [
@@ -52,6 +66,30 @@ const babelOptions = preset => {
     }
 
     return options
+}
+
+const plugins = () => {
+    const base = [
+        new HTMLWebpackPlugin({
+            template: './index.html'
+        }),
+        new CleanWebpackPlugin(),
+        new CopyWebpackPlugin({
+            patterns: [ // это массив, так как для каждого элемента копирования используем отдельный объект с параментрами
+                {
+                    from: path.resolve(__dirname, 'src/favicon.ico'),
+                    to: path.resolve(__dirname, 'dist')
+                }
+            ]
+        }),
+        new MiniCssExtractPlugin({
+            filename: filename('css')
+        })
+    ]
+    if(isProd) {
+        base.push(new BundleAnalyzerPlugin())
+    }
+    return base
 }
 
 module.exports = {
@@ -77,24 +115,8 @@ module.exports = {
         port: 4200,
         hot: isDev
     },
-    devtool: isDev ? 'source-map' : '',
-    plugins: [
-        new HTMLWebpackPlugin({
-            template: './index.html'
-        }),
-        new CleanWebpackPlugin(),
-        new CopyWebpackPlugin({
-            patterns: [ // это массив, так как для каждого элемента копирования используем отдельный объект с параментрами
-                {
-                    from: path.resolve(__dirname, 'src/favicon.ico'),
-                    to: path.resolve(__dirname, 'dist')
-                }
-            ]
-        }),
-        new MiniCssExtractPlugin({
-            filename: filename('css')
-        })
-    ],
+    devtool: isDev ? 'source-map' : false,
+    plugins: plugins(),
     module: {
         rules: [
             {
@@ -126,12 +148,9 @@ module.exports = {
                 use: ['csv-loader']
             },
             {
-                test: /\.m?js$/, // пробегает по всем js файлам и пропускает их через babel
+                test: /\.js$/, // пробегает по всем js файлам и пропускает их через babel
                 exclude: /node_modules/, // из поиска убирает папку node-modules
-                use: {
-                    loader: 'babel-loader',
-                    options: babelOptions()
-                }
+                use: jsLoaders()
             },
             {
                 test: /\.ts/,
